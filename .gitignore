@@ -1,0 +1,34 @@
+# Build output
+/build/
+*.rbxl
+*.rbxlx
+*.rbxl.lock
+*.rbxlx.lock
+*.rbxm
+*.rbxmx
+
+# Generated tooling files
+sourcemap.json
+roblox.yml
+Packages/
+ServerPackages/
+DevPackages/
+
+# Secrets — never commit
+.env
+.env.*
+*.pem
+*.key
+*.pfx
+*cookie*
+*ROBLOSECURITY*
+secrets/
+credentials*.json
+
+# Editor / OS
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+desktop.ini
